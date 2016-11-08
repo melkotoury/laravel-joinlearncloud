@@ -1,0 +1,55 @@
+#SECTION_1 {
+    box-sizing: border-box;
+    height: 618px;
+    position: relative;
+    width: 1944px;
+    z-index: 1;
+    perspective-origin: 972px 309px;
+    transform-origin: 972px 309px;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto border-box border-box;
+    font: normal normal normal normal 16px / normal 'National Light';
+    margin: 0px 2149.5px 0px 2166.5px;
+    overflow: auto;
+}/*#SECTION_1*/
+
+#ARTICLE_2 {
+    box-sizing: border-box;
+    height: 474px;
+    left: 622px;
+    position: absolute;
+    top: 72px;
+    width: 700px;
+    perspective-origin: 350px 237px;
+    transform-origin: 350px 237px;
+    font: normal normal normal normal 16px / normal 'National Light';
+}/*#ARTICLE_2*/
+
+#H1_3 {
+    box-sizing: border-box;
+    color: rgb(63, 63, 63);
+    height: 48px;
+    text-align: center;
+    width: 700px;
+    perspective-origin: 350px 24px;
+    transform-origin: 350px 24px;
+    border: 0px none rgb(63, 63, 63);
+    font: normal normal normal normal 40px / 48px 'National Light';
+    margin: 40px 0px;
+    outline: rgb(63, 63, 63) none 0px;
+}/*#H1_3*/
+
+#P_4 {
+    box-sizing: border-box;
+    color: rgb(97, 97, 97);
+    height: 324px;
+    letter-spacing: 1.1px;
+    text-align: center;
+    width: 700px;
+    perspective-origin: 350px 162px;
+    transform-origin: 350px 162px;
+    border: 0px none rgb(97, 97, 97);
+    font: normal normal normal normal 22px / 36px 'National Light';
+    margin: 22px 0px;
+    outline: rgb(97, 97, 97) none 0px;
+}/*#P_4*/
+

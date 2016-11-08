@@ -1,0 +1,299 @@
+/*********************************
+|
+|   iPhone and Other Smartphone
+|
+/*********************************/
+
+@media (max-width: 500px) {
+    
+    #header {
+        min-height: 690px;
+    }
+    
+    }
+    
+    #success_story h2 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .img_list {
+        margin-top: 50px;
+    }
+    
+    .thumb_img_wrap {        
+        margin-right: 16px;
+        margin-top: 20px;
+    }
+        
+    .thumb_img_wrap .img_wrap .faces {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .sign_in_wrap {
+        margin-top: 50px;
+        width: 260px;
+    }
+    
+    .larry_p {
+        margin-right: 5px;
+    }
+    
+    .travis {
+        margin-right: 5px;
+    }
+    
+    .soliman {
+        margin-right: 0;
+    }
+    
+    .f_social_logos {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .f_follow {
+        margin-right: 0;
+    }
+    
+    .f_follow,
+    .f_left,
+    .f_right .f_copyright {
+        float: none;
+        text-align: center;
+    }  
+        
+    .f_right {
+        margin-top: 10px;
+    }
+
+
+    #text-Hello-World .text-world{
+    line-height: 22px;
+    font-size: 1px;
+     font-weight: normal;
+    margin-top: 30px;
+    margin-bottom: 66px;
+    letter-spacing: .03em;
+    font-family: 'National Light';
+    color: hsl(0,0%,40%);        
+     padding-right: 1px;
+     padding-left: 1px;
+
+    }
+
+     #header h1 {
+    width: 90%;
+    margin-top: 0;
+    padding-top: 34px;
+    color: #fff;
+    font-weight: 70;
+    line-height: 35px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 1.6px;
+
+       
+    }
+
+
+}
+
+/************************
+|
+|   BiG PHONES
+|
+/************************/
+
+@media (min-width: 501px) and (max-width: 699px){
+
+
+     .text-world{
+    line-height: 24px;
+    font-size: 16px;
+     font-weight: normal;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    letter-spacing: .045em;
+    font-family: 'National Light';
+    color: hsl(0,0%,40%);        
+     padding-right: 1px;
+     padding-left: 1px;
+     width:80%;
+     margin: auto;
+     padding-bottom: 60px;
+     background-color: blue;
+    
+}
+
+    .Hello-world{
+
+        overflow: hidden;
+        margin-bottom: 40px;
+        font-size: 27px;
+    }
+      
+
+    #header h1 {
+    width: 80%;
+    margin-top: 0;
+    padding-top: 34px;
+    color: #fff;
+    font-weight: 70;
+    line-height: 44px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 1.6px;
+
+       
+    }
+
+
+}
+
+/************************
+|
+|   iPad and Other Tablet
+|
+/************************/
+
+@media (min-width: 700px) and (max-width: 1111px){
+
+    #header h1 {
+      
+    width: 60%;
+    margin-top: 0;
+    padding-top: 37px;
+    color: #fff;
+    font-weight: 80;
+    line-height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 32px;
+    letter-spacing: 1.8px;
+
+       
+    }
+
+
+     #text-Hello-World .text-world{
+    line-height: 26px;
+    font-size: 19px;
+     font-weight: normal;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    letter-spacing: .04em;
+    font-family: 'National Light';
+    color: hsl(0,0%,40%);        
+     padding-right: 1px;
+     padding-left: 1px;
+
+
+    }
+
+
+    
+    #header {
+        min-height: 720px;
+    }
+    
+    .thumb_img_wrap {
+        margin-right: 14px;
+    } 
+    
+    .sign_in_wrap {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+    .zuckerberg {
+        margin-right: 10px;
+    }
+    
+    .travis {
+        margin-right: 5px;
+    }
+    
+    .f_social_logos {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .f_follow {
+        margin-right: 0;
+    }
+
+    .f_follow,
+    .f_left,
+    .f_right .f_copyright {
+        float: none;
+        text-align: center;
+    }  
+
+    .f_right {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+}
+
+
+
+/*********************************
+|
+|   Desktop and Bigger Screen
+|
+/*********************************/
+@media (min-width: 1112px) {
+    
+    #header h1 {
+    margin-top: 0;
+    padding-top: 40px;
+    width: 55%;
+    color: #fff;
+    font-weight: 100;
+    line-height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 2px;
+
+
+
+    }
+    
+    .sign_in_wrap {
+        margin-top: 0;
+        width: 300px;
+    }
+    
+    .f_social_logos {
+        display: inline-block;     
+    }
+    
+    .f_follow {
+        margin-right: 20px;
+    }
+    
+    .f_left {
+        float: left;
+    }
+    
+    .f_right .f_copyright {
+        float: right;        
+    }  
+
+    .f_right {
+        display: inline-block;
+        text-align: right;
+    }
+}
+
+

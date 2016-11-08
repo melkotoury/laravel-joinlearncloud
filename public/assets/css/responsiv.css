@@ -1,0 +1,672 @@
+/*********************************
+|
+|   iPhone and Other Smartphone
+|
+/*********************************/
+
+@media (max-width: 767px) {
+    
+
+    #header {
+        padding-top: 30px;
+
+    }
+    #header .imglogo{
+
+    background-image: url(../../assets/images/logo_opt_1.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 80%;
+    height: 110px;
+    padding-top: 25px;
+
+
+}
+
+#header h1 {
+    margin-top: 0;
+    padding-top: 60px;
+    width: 90%;
+    color: #fff;
+    font-weight: 50;
+    line-height: 28px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 1.3px;
+
+}
+
+     .text-world{
+    line-height: 22px;
+    font-size: 14px;
+     font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    letter-spacing: .045em;
+    font-family: 'National Light';
+    color: hsl(0,0%,40%);        
+     padding-right: 1px;
+     padding-left: 1px;
+     width:80%;
+     margin: auto;
+     padding-bottom: 60px;
+         font-family: "Open Sans","Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+
+    
+}
+
+    .Hello-world{
+
+        overflow: hidden;
+        margin-bottom: 60px;
+        font-size: 27px;
+        font-family: "Open Sans","Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+        margin-top: 40px;
+
+    }
+
+    
+    #success_story h2 {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .img_list {
+        margin-top: 50px;
+    }
+    
+    .thumb_img_wrap {        
+        margin-right: 16px;
+        margin-top: 20px;
+    }
+        
+    .thumb_img_wrap .img_wrap .faces {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .sign_in_wrap {
+        margin-top: 50px;
+        width: 260px;
+    }
+    
+    .larry_p {
+        margin-right: 5px;
+    }
+    
+    .travis {
+        margin-right: 5px;
+    }
+    
+    .soliman {
+        margin-right: 0;
+    }
+    
+    .f_social_logos {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .f_follow {
+        margin-right: 0;
+    }
+    
+    .f_follow,
+    .f_left,
+    .f_right .f_copyright {
+        float: none;
+        text-align: center;
+    }  
+        
+    .f_right {
+        margin-top: 10px;
+    }
+    .hstory{
+
+        font-size: 21px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: "Open Sans","Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+        font-weight: 300;
+        text-rendering: optimizeLegibility;
+
+    }
+    .shouldh{
+
+        font-size: 22px;
+    }
+
+    .shouldhspan{
+
+        font-size: 20px;
+
+
+    }
+
+    .letspace{
+    font-weight: 400;
+    font-size: 22px;
+    width:90%;
+    }
+
+    .isec{
+
+        font-size: 17px;
+        padding-right: 7%;
+        padding-left: 7%;
+    }
+
+            .sign-up {
+          position: relative;
+          margin: 20px auto;
+          padding: 33px 25px 29px;
+          width: 85% !important;
+          background: white;
+          border-bottom: 1px solid #c4c4c4;
+          border-radius: 5px;
+          -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+        }
+
+        .sign-up:before, .sign-up:after {
+          content: '';
+          position: absolute;
+          bottom: 1px;
+          left: 0;
+          right: 0;
+          height: 10px;
+          background: inherit;
+          border-bottom: 1px solid #d2d2d2;
+          border-radius: 4px;
+        }
+
+        .sign-up:after {
+          bottom: 3px;
+          border-color: #dcdcdc;
+        }
+        .sign-up-par {
+
+            font-size: 17px !important;
+        }
+
+            #timer {
+          font-family: Arial, sans-serif;
+          font-size: 15px !important;
+          color: #999;
+          letter-spacing: -1px;
+        }
+        #timer span {
+          font-size: 19px;
+          color: #333;
+          margin: 0 3px 0 5px !important;
+        }
+             .formcon{
+              width: 80% !important;
+             } 
+             .payup{
+
+        width: 80%;
+
+     }
+         .sign-up-parcon{
+
+      text-align: left;
+        line-height: 20px;
+          font-size: 16px;
+          font-weight: 200;
+          color: #aaa;
+          text-shadow: 0 1px rgba(255, 255, 255, 0.75);
+
+
+    }
+         .cong-acount{
+
+        line-height: 29px;
+          font-size: 24px;
+          font-weight: 600;
+          color: #aaa;
+          text-shadow: 0 1px rgba(255, 255, 255, 0.75);
+        text-align: left;
+        margin-bottom: 20px;
+        margin-top: 20px;
+
+
+     }
+         .payupp{
+
+        width: 280px !important;
+        margin-bottom: 8px;
+    }
+
+.logo-words{
+
+  display: none;
+
+}
+.navbar-brand{
+    width: 89px;
+    height: 66px;
+    display: block;
+    margin-left: 0px;
+    float: left;
+    background-image: url(../../assets/images/logo-true.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+}
+
+
+/************************
+|
+|   iPad and Other Tablet
+|
+/************************/
+
+@media (min-width: 768px){
+
+
+    #header .imglogo{
+
+    background-image: url(../../assets/images/logo_opt_2.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 66%;
+    height: 140px;
+    padding-top: 40px;
+
+
+}
+
+#header h1 {
+    margin-top: 0;
+    padding-top: 60px;
+    width: 80%;
+    color: #fff;
+    font-weight: 660;
+    line-height: 35px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 28px;
+     letter-spacing: 1.5px;
+
+}
+
+    
+     .text-world{
+    line-height: 27px;
+    font-size: 18px;
+     font-weight: normal;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    letter-spacing: .05em;
+    font-family: 'National Light';
+    color: hsl(0,0%,40%);        
+     padding-right: 1px;
+     padding-left: 1px;
+     width:75%;
+     margin: auto;
+     padding-bottom: 60px;
+         font-family: "Open Sans","Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+
+
+
+    
+}
+
+    .Hello-world{
+
+        overflow: hidden;
+        margin-bottom: 40px;
+        font-size: 30px;
+        font-family: "Open Sans","Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+
+
+    }
+
+
+    
+    .thumb_img_wrap {
+        margin-right: 14px;
+    } 
+    
+    .sign_in_wrap {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 100%;
+    }
+    
+    .zuckerberg {
+        margin-right: 10px;
+    }
+    
+    .travis {
+        margin-right: 5px;
+    }
+    
+    .f_social_logos {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .f_follow {
+        margin-right: 0;
+    }
+
+    .f_follow,
+    .f_left,
+    .f_right .f_copyright {
+        float: none;
+        text-align: center;
+    }  
+
+    .f_right {
+        text-align: center;
+        margin-top: 10px;
+    }
+        .hstory{
+
+        font-size: 31px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: "Open Sans","Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+            font-weight: 100;
+    text-rendering: optimizeLegibility;
+
+    }
+
+        .letspace{
+    font-weight: 399;
+    font-size: 25px;
+}
+
+    .shouldh{
+
+        font-size: 24px;
+    }
+
+    .shouldhspan{
+
+        font-size: 22px;
+
+
+    }
+
+
+.sign-up {
+  position: relative;
+  margin: 20px auto;
+  padding: 33px 25px 29px;
+  width: 70% !important;
+  background: white;
+  border-bottom: 1px solid #c4c4c4;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.sign-up:before, .sign-up:after {
+  content: '';
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: inherit;
+  border-bottom: 1px solid #d2d2d2;
+  border-radius: 4px;
+}
+
+.sign-up:after {
+  bottom: 3px;
+  border-color: #dcdcdc;
+}
+             .formcon{
+              width: 60% !important;
+             } 
+             .payup{
+
+        width: 60%;
+
+     }
+              .sign-up-parcon{
+
+      text-align: left !important ;
+        line-height: 21px !important;
+          font-size: 17px !important;
+          font-weight: 300 !important;
+          color: #aaa;
+          text-shadow: 0 1px rgba(255, 255, 255, 0.75);
+
+
+    }
+
+   
+     .cong-acount{
+
+        line-height: 25px;
+          font-size: 25px;
+          font-weight: 700;
+          color: #aaa;
+          text-shadow: 0 1px rgba(255, 255, 255, 0.75);
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 40px;
+
+
+     }
+              .payupp{
+
+        width: 40% !important;
+        margin-left: 5px;
+    }
+
+
+
+
+
+
+    
+}
+
+
+
+/*********************************
+|
+|   Desktop and Bigger Screen
+|
+/*********************************/
+@media (min-width: 992px) {
+    
+    #header h1 {
+        width: 55%;
+    }
+
+     .text-world{
+    line-height: 36px;
+    font-size: 22px;
+     font-weight: 444;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    letter-spacing: .05em;
+    font-family: 'National Light';
+    color: hsl(0,0%,40%);        
+     padding-right: 1px;
+     padding-left: 1px;
+     width:98%;
+     margin: auto;
+     padding-bottom: 100px;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+    letter-spacing: -0.5px;
+     word-spacing: 2px;
+
+
+    
+}
+
+    .Hello-world{
+
+        overflow: hidden;
+        margin-bottom: 60px;
+        font-size: 33px;
+            font-family: "Open Sans","Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+
+    }
+
+    
+    
+    .sign_in_wrap {
+        margin-top: 0;
+        width: 300px;
+    }
+    
+    .f_social_logos {
+        display: inline-block;     
+    }
+    
+    .f_follow {
+        margin-right: 20px;
+    }
+    
+    .f_left {
+        float: left;
+    }
+    
+    .f_right .f_copyright {
+        float: right;        
+    }  
+
+    .f_right {
+        display: inline-block;
+        text-align: right;
+    }
+
+    .sign-up {
+  position: relative;
+  margin: 20px auto;
+  padding: 33px 25px 29px;
+  width: 40% !important;
+  background: white;
+  border-bottom: 1px solid #c4c4c4;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+}
+
+.sign-up:before, .sign-up:after {
+  content: '';
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background: inherit;
+  border-bottom: 1px solid #d2d2d2;
+  border-radius: 4px;
+}
+
+.sign-up:after {
+  bottom: 3px;
+  border-color: #dcdcdc;
+}
+     .formcon{
+      width: 40% !important;
+      margin-bottom: 200px;
+      min-height: 400px;
+     } 
+
+
+     .payup{
+
+        width: 40%;
+
+     }
+
+     .cong-acount{
+
+        line-height: 25px;
+          font-size: 25px;
+          font-weight: 700;
+          color: #aaa;
+          text-shadow: 0 1px rgba(255, 255, 255, 0.75);
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 40px;
+
+
+     }
+
+     .formcong{
+
+
+      width: 70% !important;
+      margin-bottom: 200px;
+      min-height: 400px;
+      text-align: left;
+
+
+     }
+    .sign-up-parcon{
+
+      text-align: left;
+        line-height: 25px;
+          font-size: 18px;
+          font-weight: 300;
+          color: #aaa;
+          text-shadow: 0 1px rgba(255, 255, 255, 0.75);
+
+
+    }
+    .payupp{
+
+        width: 28% !important;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+

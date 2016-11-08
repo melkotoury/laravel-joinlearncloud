@@ -1,0 +1,2237 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+/*========== DEFAULT BROWSER STYLE==========*/
+article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,footer,header,hgroup,keygen,meter,nav,output,progress,section,source,video,main{display:block}mark,rp,rt,ruby,summary,time{display:inline}
+a, abbr, acronym, address, applet, article, aside, audio,b, blockquote, big, body,center, canvas, caption, cite, code, command,datalist, dd, del, details, dfn, dl, div, dt, em, embed,fieldset, figcaption, figure, font, footer, form, header, hgroup, html,i, iframe, img, ins,kbd, keygen, legend, li, meter,nav,object, ol, output, pre, progress,q, s, samp, section, small,source, strike, strong, sub, sup,table, tbody, tfoot, thead, th, tr, tdvideo, tt,u, ul, var{
+    /*background: transparent;*/
+    border: 0 none;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+    vertical-align: top;
+}
+ul,ol{
+	list-style: none;
+}
+q {
+	quotes: none;
+}
+b{
+	font-weight: bold;
+
+}
+
+table, table td { 
+	padding:0;
+	border-collapse:collapse;
+}
+
+img{
+	vertical-align:top; 
+}
+
+input:focus, textarea:focus, keygen:focus, select:focus {
+	outline-offset:0px;
+}
+
+input,button{
+	outline: none;
+	border:0;
+}
+
+button::-moz-focus-inner{
+	border:0;
+}
+html,body{
+	height:100%;
+}
+.table > tbody > tr > td{
+	padding:5px;
+	vertical-align: middle;
+}
+.table > tbody > tr > th{
+	padding:15px;
+}
+/*==========END DEFAULT BROWSER STYLE========== */
+             
+
+
+/*==========       BASIC CLASSES     ==========*/
+
+/* ========================================= */
+/* =============SPACE CLASSES============== */
+/* ========================================= */
+.space5{
+	margin-top: 5px;
+}
+.space10{
+	margin-top: 10px;
+}
+.space15{
+	margin-top: 15px;
+}
+.space20{
+	margin-top: 20px;
+}
+.space25{
+	margin-top: 25px;
+}
+.space30{
+	margin-top: 30px;
+}
+.space40{
+	margin-top: 40px;
+}
+.space50{
+	margin-top: 50px;
+}
+.space60{
+	margin-top: 60px;
+}
+.space70{
+	margin-top: 70px;
+}
+.space80{
+	margin-top: 80px;
+}
+.space100{
+	margin-top: 100px;
+}
+.space120{
+	margin-top: 120px;
+}
+.space150{
+	margin-top: 150px;
+}
+
+
+/* ========================================= */
+/* =============PADDING CLASSES============== */
+/* ========================================= */
+.pad0{
+	padding: 0;
+}
+.padleft0{
+	padding-left: 0px !important;
+}
+.padright0{
+	padding-right: 0px !important;
+}
+.padtop0{
+	padding-top: 0px !important;		
+}
+.padbottom0{
+	padding-bottom: 0px !important;		
+}
+.padding10{
+	padding: 10px;
+}
+.padding15{
+	padding: 10px;
+}
+.padding20{
+	padding: 10px;
+}
+.padding25{
+	padding: 10px;
+}
+.padding30{
+	padding: 10px;
+}
+
+
+/* ========================================= */
+/* =============MARGIN CLASSES============== */
+/* ========================================= */
+.m0{
+	margin: 0;
+}
+.mbtm0{
+	margin-bottom: 0px;
+}
+.mtop0{
+	margin-top:0px;
+}
+.mtop10{
+	margin-top:10px;
+}
+.mbtm10{
+	margin-bottom:10px;
+}
+.mleft10{
+	margin-left:10px;
+}
+.mright10{
+	margin-right:10px;
+}
+.mauto img{
+	margin: 0px auto !important;
+	width: 100%  !important;
+}
+.mautomargin{
+	margin: 0px auto !important;
+}
+
+
+/* ========================================= */
+/* =============COLOR CLASSES============== */
+/* ========================================= */
+
+.greyclr{
+	color:#a6a6a6;;
+}
+.darkgrey{
+	color: #727272;	
+}
+.whiteclr{
+	color: #fff;
+}
+.blueclr{
+	color:#0ea7e1;
+}
+.blackclr{
+	color: #212121;
+}
+.backred{
+background: #CA0000;
+}
+.backwhite{
+background: #fff;
+}
+.backblack{
+	background: #2c2c2c;
+}
+.backgrey{
+	background:#f7f5f5;
+}
+
+
+/* ========================================= */
+/* =============FORM / INPUT / SELECT CLASSES============== */
+/* ========================================= */
+.input-group-btn > .btn:hover,
+.input-group-btn > .btn:focus,
+.input-group-btn > .btn:active{
+	z-index: 0 ;
+}
+.form-control{
+	box-shadow: none;
+	color: #000;
+	 height:40px;
+	 border-radius: 0px;
+	 background-color: #fff;
+	border-color: #000;
+	border-right: transparent;
+	/*border-width: 1px;*/
+}
+.form-control:focus{
+	box-shadow:none !important;
+	outline: none;
+	border-color: #138dbd; 
+}
+input{
+	height: 40px;
+}
+select {
+	 min-width:1.5em;
+  }
+
+/* ========================================= */
+/* =============FONT SIZE CLASSES============== */
+/* ========================================= */
+.fsize8{
+	font-size: 8px;
+}
+.fsize10{
+	font-size: 10px;
+}
+.fsize12{
+	font-size: 12px;
+}
+.fsize13{
+	font-size: 13px;
+}
+.fsize14{
+	font-size: 14px;
+}
+.fsize16{
+	font-size: 16px !important;
+}
+.fsize18{
+	font-size: 18px !important;
+}
+.fsize20
+{
+	font-size: 20px !important;
+}
+.fsize22{
+	font-size: 22px !important;
+}
+.fsize24{
+	font-size: 24px;
+}
+.fsize26{
+	font-size: 26px;
+}
+.fsize28{
+	font-size: 28px;
+}
+.fsize30{
+	font-size: 30px;
+}
+.fsize36{
+	font-size: 36px;
+}
+.fsize40{
+	font-size: 40px;
+}
+.fsize45{
+	font-size: 45px;
+}
+.fsize50{
+	font-size: 50px;
+}
+.fsize60{
+	font-size: 60px;
+}
+.fsize70{
+	font-size: 70px;
+}
+.fsize80{
+	font-size: 80px;
+}
+.fsize90{
+	font-size: 90px;
+}
+.fsize100{
+	font-size: 1000px;
+}
+
+/* ========================================= */
+/* =============FONT WEIGHT CLASSES============== */
+/* ========================================= */
+.f100{
+	font-weight: 100;
+}
+
+.f200{
+	font-weight: 200;
+}
+.f300{
+	font-weight: 300;
+}
+.f400{
+	font-weight: 400;
+}
+.f500{
+	font-weight: 500;
+}
+.f600{
+	font-weight: 600;
+}
+.f700{
+	font-weight: 700;
+}
+.f800{
+	font-weight: 800;
+}
+
+/* ========================================= */
+/* =============BUTTON CLASSES============== */
+/* ========================================= */
+ button,.btn{
+ 	border-radius: 0px;
+ 	color: ;
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-ms-transition:all 0.3s linear;
+}
+button:hover,.btn:hover{
+	color: #fff !important;
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-ms-transition:all 0.3s linear;
+}
+.blockbtn{
+	border: ;
+	color: ;
+	padding: 10px 20px;
+}
+.blockbtn:hover{
+	color: ;
+	background: ;
+}
+.outlinebtn{
+	border:1px solid #fff;
+	background: transparent;
+	color: ;
+	padding: 10px 20px;
+}
+.outlinebtn:hover{
+	border:;
+	background: ;
+}
+
+/* ========================================= */
+/* =============LETTERSPACE CLASSES============== */
+/* ========================================= */
+.lspace03{
+	letter-spacing: 0.3px;
+}
+.lspace06{
+	letter-spacing: 0.6px;
+}
+.lspace1{
+	letter-spacing: 1px;
+}
+.lspace2{
+	letter-spacing: 2px;
+}
+.lspace3{
+	letter-spacing:3px;
+}
+
+/* ========================================= */
+/* =============LINEHEIGHT CLASSES============== */
+/* ========================================= */
+.lheight15{
+	line-height: 15px;
+}
+.lheight20{
+	line-height: 20px;
+}
+.lheight22{
+	line-height: 22px;
+}
+.lheight25{
+	line-height: 25px;
+}
+.lheight30{
+	line-height: 30px;
+}
+.lheight35{
+	line-height: 35px;
+}
+.lheight40{
+	line-height: 40px;
+}
+.lheight45{
+	line-height: 45px;
+}
+.lheight50{
+	line-height: 50px;
+}
+
+
+/* ========================================= */
+/* =============ANIMATION CLASSES============== */
+/* ========================================= */
+a,
+img,
+button,
+.btn,
+a:hover,
+img:hover,
+button:hover,
+.btn:hover{
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-ms-transition:all 0.3s linear;
+	transition:all 0.3s linear;
+}
+
+/* ========================================= */
+/* =============CSS FOR SOCIAL ICON============== */
+/* ========================================= */
+.social ul li i{
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	text-align: center;
+	padding: 8px 5px;
+	font-size: 20px;
+	color: #fff;
+	line-height: 28px;
+}
+.social ul li .fa-facebook{
+	background: #3b5998;
+}
+.social ul li .fa-twitter{
+	background: #5dd7fc;	
+}
+.social ul li .fa-linkedin{
+	background: #007bb6;
+}
+.social ul li .fa-google-plus{
+	background: #d43e1b;
+}
+.social ul li i:hover{
+	color: #fff;
+}
+
+
+
+/* ============================================ */
+/* ============================================ */
+/* ============================================ */
+
+body{
+	border: none;
+	color: #212121;
+	cursor: auto;
+	 font-family: 'Lato', sans-serif !important;
+	line-height: 20px;
+	outline: 0;
+	vertical-align: top;
+	overflow: hidden;
+}
+
+a{
+	color: #3a3a3a;
+}
+
+a:focus{
+text-decoration: none;
+}
+
+p{
+	color:#000;
+	font-size: 15px;
+	margin: 0 0 9px;
+	line-height: 22px;
+}
+body a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: #a6c938;
+}
+body a:focus{
+	color:#000;
+}
+a:focus,.btn:focus,.btn:active:focus,
+button:focus,input[type="file"]:focus, 
+input[type="radio"]:focus, 
+input[type="checkbox"]:focus{
+	outline: none;
+}
+.uppercase{
+	text-transform:capitalize;
+	letter-spacing:1.3px;
+}
+	 .hideme{
+ opacity:0;
+ }
+	.visible{
+	     opacity:1;
+	}
+/* ========================================= */
+/* =============CSS FOR ALL SECTION========= */
+/* ========================================= */
+#top{
+	background: url(../image/Rectangle-1.png) no-repeat;
+	background-size: cover;
+	padding: 30px 0;
+}
+.user span{
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 5px;
+}
+.account-info{
+	text-align: center;
+	display: none;
+}
+.account-info li{
+	line-height: 25px;
+}
+.account-info li a{
+	color: #fff;
+}
+.account-info li a:hover{
+	color: #0ea7e1;
+}
+/*==============
+css for slider
+===============*/
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+  background-color: transparent;
+    width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  padding: 18px
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+  left: -73px;
+  top:30%; 
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-next{
+  right:-50px;
+  top: 30%;
+}
+.owl-theme .owl-controls .owl-buttons div:hover {
+  background-color:transparent;
+}
+.slider .item img{
+	border-radius: 100%;
+}
+.right-badge{
+	background:rgba(9,105,138,0.7);
+	width: 165px;
+	height: 165px;
+	border-radius: 100%;
+}
+.right-badge .fa{
+	line-height: 170px;
+	font-size: 50px;
+	color: #ffffff;
+}
+#owl-demo .item .image{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+#owl-demo .item .mask{
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+}
+
+/*=================
+css for services
+=================*/
+
+
+/*================
+css for counter
+=================*/
+#counter{
+	background: url(../image/Rectangle-2.png) no-repeat;
+	background-size: cover; 
+	/*background-attachment: fixed;*/
+	padding: 20px 0;
+}
+
+
+
+/*=====================
+css for advertise
+======================*/
+.point-table .invite span{
+	
+}
+.point-table .invite{
+	width:100%;
+	background: #138dbd;
+	border-radius: 20px;
+	text-align: center;
+}
+.point-table .invitetwo{
+	width:100%;
+	border-radius: 20px;
+	padding: 0px 35px;
+	text-align: center;
+}
+
+.point-table .invite:hover{
+
+  background: #006289;
+}
+.point-table .invited{
+	width:100%;
+	padding: 5px 15px;
+	text-align: center;
+	color:red;
+}
+
+.point-table tr td{
+width: 200px;
+vertical-align: middle;
+}
+.point-table tr td div{
+	margin-bottom: 20px;
+}
+
+.invitebtn{
+    color: #fff;
+    padding: 10px 35px !important;
+    border-radius: 5px;
+    font-weight: 600;
+ } 
+ 
+.sendmessenger{
+    
+    background-color: #0183FE;
+    color: #fff;
+}
+.sendmessenger:hover {
+    
+    background-color: #0177e4;
+    
+}
+ /*======
+ css for share
+ =======*/
+  .share .input-group-btn {
+    background: #138dbd;
+    border-radius:0  3px 3px 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding:2px 15px;
+    vertical-align: middle;
+}
+.share .input-group-btn:hover {
+  background: #006289;
+  -webkit-transition:all 0.4s linear;
+  -moz-transition:all 0.4s linear;
+  -ms-transition:all 0.4s linear;
+}
+.input-group span{
+	cursor: pointer;
+}
+.user-point-box{
+	border:1px solid #a1a1a1;
+	padding:0 0 10px 0;
+}
+.user-point-box .head{
+	background: #3b5998;
+	color: #fff;
+	padding: 5px 2px;
+	text-align: center;
+}
+
+.buybtn{
+	 background-color: #138dbd;
+    color: #fff;
+    font-weight: 600;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border-bottom: 3px solid #0b5e7e;
+}
+.buybtn:hover{
+	background: #006289;
+}
+/*.paypal{
+	   width: 15%;
+    margin: 0 auto;
+}*/
+.paypal span{
+	display: table-cell;
+}
+
+/*.process-graph .mautomargin{
+	margin:0px 11px !important; 
+} */
+
+.dotted-line
+{
+	background: #000;
+	height: 5px;	
+
+}
+.bluebar{
+	background: #cccccc;
+	height: 5px;
+	width: 10%;
+}
+
+/*====================
+css for price table
+=====================*/
+.price-table{
+	box-shadow: 0px 2px 10px -1px #ccc;
+	padding-bottom:;
+}
+.plan-price{
+	padding:15px 0;
+	background-color: #f8f8f8;
+}
+.price-table .btn{
+	color: #fff;
+	padding: 8px 30px;
+}
+.price-table .btn:hover{
+background: #006289;
+}
+
+.price-table .plan-list ul li:not(:last-child){
+	line-height: 35px;
+	border-bottom: 1px solid #f9f9f9;
+}
+.price-table .plan-list ul li{
+	line-height: 35px;
+}
+.price-btn{
+	background-color: #f8f8f8;
+	padding:30px 0;
+}
+
+
+span.amo {
+  position: absolute;
+  top:-6%;
+  left: 8%;
+}
+.tooltip-inner {
+  max-width: 243px;
+  padding: 5px 18px;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  text-decoration: none;
+  background-color: #a1a1a1;
+  line-height: 16px;
+  border-radius: 4px;
+}
+span.amo:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  bottom: -4px;
+  right: 10px;
+  border-width: 5px 5px 0;
+  border-top-color: #a1a1a1;
+}
+
+/*==================
+bronz price table
+====================*/
+.bronz .plan-name{
+	background: #cd7f32;
+	padding: 10px 0;
+}	
+
+.bronz .plan-price h3{
+	color: #cd7f32;
+}
+.bronz .btn{
+	background: #cd7f32;
+}
+
+/*==================
+gold price table
+====================*/
+.gold .plan-name{
+	background:#ffd700;
+	padding: 20px 0;
+}
+.gold .plan-price h3{
+	color: #ffd700;
+}
+ .gold .btn{
+	background: #ffd700;
+}
+.price-table.gold{
+	-webkit-transform:scale(1,1.1);
+	-moz-transform:scale(1,1.1);
+	-ms-transform:scale(1,1.1);
+}
+/*==================@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+/*========== DEFAULT BROWSER STYLE==========*/
+article,aside,audio,canvas,command,datalist,details,embed,figcaption,figure,footer,header,hgroup,keygen,meter,nav,output,progress,section,source,video,main{display:block}mark,rp,rt,ruby,summary,time{display:inline}
+a, abbr, acronym, address, applet, article, aside, audio,b, blockquote, big, body,center, canvas, caption, cite, code, command,datalist, dd, del, details, dfn, dl, div, dt, em, embed,fieldset, figcaption, figure, font, footer, form, header, hgroup, html,i, iframe, img, ins,kbd, keygen, legend, li, meter,nav,object, ol, output, pre, progress,q, s, samp, section, small,source, strike, strong, sub, sup,table, tbody, tfoot, thead, th, tr, tdvideo, tt,u, ul, var{
+    /*background: transparent;*/
+    border: 0 none;
+    margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+    vertical-align: top;
+}
+ul,ol{
+	list-style: none;
+}
+q {
+	quotes: none;
+}
+b{
+	font-weight: bold;
+}
+
+table, table td { 
+	padding:0;
+	border-collapse:collapse;
+}
+
+img{
+	vertical-align:top; 
+}
+
+input:focus, textarea:focus, keygen:focus, select:focus {
+	outline-offset:0px;
+}
+
+input,button{
+	outline: none;
+	border:0;
+}
+
+button::-moz-focus-inner{
+	border:0;
+}
+html,body{
+	height:100%;
+}
+.table > tbody > tr > td{
+	padding:5px;
+	vertical-align: middle;
+}
+.table > tbody > tr > th{
+	padding:15px;
+}
+/*==========END DEFAULT BROWSER STYLE========== */
+             
+
+
+/*==========       BASIC CLASSES     ==========*/
+
+/* ========================================= */
+/* =============SPACE CLASSES============== */
+/* ========================================= */
+.space5{
+	margin-top: 5px;
+}
+.space10{
+	margin-top: 10px;
+}
+.space15{
+	margin-top: 15px;
+}
+.space20{
+	margin-top: 20px;
+}
+.space25{
+	margin-top: 25px;
+}
+.space30{
+	margin-top: 30px;
+}
+.space40{
+	margin-top: 40px;
+}
+.space50{
+	margin-top: 50px;
+}
+.space60{
+	margin-top: 60px;
+}
+.space70{
+	margin-top: 70px;
+}
+.space80{
+	margin-top: 80px;
+}
+.space100{
+	margin-top: 100px;
+}
+.space120{
+	margin-top: 120px;
+}
+.space150{
+	margin-top: 150px;
+}
+
+
+/* ========================================= */
+/* =============PADDING CLASSES============== */
+/* ========================================= */
+.pad0{
+	padding: 0;
+}
+.padleft0{
+	padding-left: 0px !important;
+}
+.padright0{
+	padding-right: 0px !important;
+}
+.padtop0{
+	padding-top: 0px !important;		
+}
+.padbottom0{
+	padding-bottom: 0px !important;		
+}
+.padding10{
+	padding: 10px;
+}
+.padding15{
+	padding: 10px;
+}
+.padding20{
+	padding: 10px;
+}
+.padding25{
+	padding: 10px;
+}
+.padding30{
+	padding: 10px;
+}
+
+
+/* ========================================= */
+/* =============MARGIN CLASSES============== */
+/* ========================================= */
+.m0{
+	margin: 0;
+}
+.mbtm0{
+	margin-bottom: 0px;
+}
+.mtop0{
+	margin-top:0px;
+}
+.mtop10{
+	margin-top:10px;
+}
+.mbtm10{
+	margin-bottom:10px;
+}
+.mleft10{
+	margin-left:10px;
+}
+.mright10{
+	margin-right:10px;
+}
+.mauto img{
+	margin: 0px auto !important;
+	width: 100%  !important;
+}
+.mautomargin{
+	margin: 0px auto !important;
+}
+
+
+/* ========================================= */
+/* =============COLOR CLASSES============== */
+/* ========================================= */
+
+.greyclr{
+	color:#a6a6a6;;
+}
+.darkgrey{
+	color: #727272;	
+}
+.whiteclr{
+	color: #fff;
+}
+.blueclr{
+	color:#0ea7e1;
+}
+.blackclr{
+	color: #212121;
+}
+.backred{
+background: #CA0000;
+}
+.backwhite{
+background: #fff;
+}
+.backblack{
+	background: #2c2c2c;
+}
+.backgrey{
+	background:#f7f5f5;
+}
+
+
+/* ========================================= */
+/* =============FORM / INPUT / SELECT CLASSES============== */
+/* ========================================= */
+.input-group-btn > .btn:hover,
+.input-group-btn > .btn:focus,
+.input-group-btn > .btn:active{
+	z-index: 0 ;
+}
+.form-control{
+	box-shadow: none;
+	color: #000;
+	 height:40px;
+	 border-radius: 0px;
+	 background-color: #fff;
+	border-color: #000;
+	border-right: transparent;
+	/*border-width: 1px;*/
+}
+.form-control:focus{
+	box-shadow:none !important;
+	outline: none;
+	border-color: #138dbd; 
+}
+input{
+	height: 40px;
+}
+select {
+	 min-width:1.5em;
+  }
+
+/* ========================================= */
+/* =============FONT SIZE CLASSES============== */
+/* ========================================= */
+.fsize8{
+	font-size: 8px;
+}
+.fsize10{
+	font-size: 10px;
+}
+.fsize12{
+	font-size: 12px;
+}
+.fsize13{
+	font-size: 13px;
+}
+.fsize14{
+	font-size: 14px;
+}
+.fsize16{
+	font-size: 16px !important;
+}
+.fsize18{
+	font-size: 18px !important;
+}
+.fsize20
+{
+	font-size: 20px !important;
+}
+.fsize22{
+	font-size: 22px !important;
+}
+.fsize24{
+	font-size: 24px;
+}
+.fsize26{
+	font-size: 26px;
+}
+.fsize28{
+	font-size: 28px;
+}
+.fsize30{
+	font-size: 30px;
+}
+.fsize36{
+	font-size: 36px;
+}
+.fsize40{
+	font-size: 40px;
+}
+.fsize45{
+	font-size: 45px;
+}
+.fsize50{
+	font-size: 50px;
+}
+.fsize60{
+	font-size: 60px;
+}
+.fsize70{
+	font-size: 70px;
+}
+.fsize80{
+	font-size: 80px;
+}
+.fsize90{
+	font-size: 90px;
+}
+.fsize100{
+	font-size: 1000px;
+}
+
+/* ========================================= */
+/* =============FONT WEIGHT CLASSES============== */
+/* ========================================= */
+.f100{
+	font-weight: 100;
+}
+
+.f200{
+	font-weight: 200;
+}
+.f300{
+	font-weight: 300;
+}
+.f400{
+	font-weight: 400;
+}
+.f500{
+	font-weight: 500;
+}
+.f600{
+	font-weight: 600;
+}
+.f700{
+	font-weight: 700;
+}
+.f800{
+	font-weight: 800;
+}
+
+/* ========================================= */
+/* =============BUTTON CLASSES============== */
+/* ========================================= */
+ button,.btn{
+ 	border-radius: 0px;
+ 	color: ;
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-ms-transition:all 0.3s linear;
+}
+button:hover,.btn:hover{
+	color: #fff !important;
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-ms-transition:all 0.3s linear;
+}
+.blockbtn{
+	border: ;
+	color: ;
+	padding: 10px 20px;
+}
+.blockbtn:hover{
+	color: ;
+	background: ;
+}
+.outlinebtn{
+	border:1px solid #fff;
+	background: transparent;
+	color: ;
+	padding: 10px 20px;
+}
+.outlinebtn:hover{
+	border:;
+	background: ;
+}
+
+/* ========================================= */
+/* =============LETTERSPACE CLASSES============== */
+/* ========================================= */
+.lspace03{
+	letter-spacing: 0.3px;
+}
+.lspace06{
+	letter-spacing: 0.6px;
+}
+.lspace1{
+	letter-spacing: 1px;
+}
+.lspace2{
+	letter-spacing: 2px;
+}
+.lspace3{
+	letter-spacing:3px;
+}
+
+/* ========================================= */
+/* =============LINEHEIGHT CLASSES============== */
+/* ========================================= */
+.lheight15{
+	line-height: 15px;
+}
+.lheight20{
+	line-height: 20px;
+}
+.lheight22{
+	line-height: 22px;
+}
+.lheight25{
+	line-height: 25px;
+}
+.lheight30{
+	line-height: 30px;
+}
+.lheight35{
+	line-height: 35px;
+}
+.lheight40{
+	line-height: 40px;
+}
+.lheight45{
+	line-height: 45px;
+}
+.lheight50{
+	line-height: 50px;
+}
+
+
+/* ========================================= */
+/* =============ANIMATION CLASSES============== */
+/* ========================================= */
+a,
+img,
+button,
+.btn,
+a:hover,
+img:hover,
+button:hover,
+.btn:hover{
+	-webkit-transition:all 0.3s linear;
+	-moz-transition:all 0.3s linear;
+	-ms-transition:all 0.3s linear;
+	transition:all 0.3s linear;
+}
+
+/* ========================================= */
+/* =============CSS FOR SOCIAL ICON============== */
+/* ========================================= */
+.social ul li i{
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	text-align: center;
+	padding: 8px 5px;
+	font-size: 20px;
+	color: #fff;
+	line-height: 28px;
+}
+.social ul li .fa-facebook{
+	background: #3b5998;
+}
+.social ul li .fa-twitter{
+	background: #5dd7fc;	
+}
+.social ul li .fa-linkedin{
+	background: #007bb6;
+}
+.social ul li .fa-google-plus{
+	background: #d43e1b;
+}
+.social ul li i:hover{
+	color: #fff;
+}
+
+
+
+/* ============================================ */
+/* ============================================ */
+/* ============================================ */
+
+body{
+	border: none;
+	color: #212121;
+	cursor: auto;
+	 font-family: 'Lato', sans-serif !important;
+	line-height: 20px;
+	outline: 0;
+	vertical-align: top;
+}
+
+a{
+	color: #3a3a3a;
+}
+
+a:focus{
+text-decoration: none;
+}
+
+p{
+	color:#000;
+	font-size: 15px;
+	margin: 0 0 9px;
+	line-height: 22px;
+}
+body a:hover{
+	text-decoration: none;
+	cursor: pointer;
+	color: #a6c938;
+}
+body a:focus{
+	color:#000;
+}
+a:focus,.btn:focus,.btn:active:focus,
+button:focus,input[type="file"]:focus, 
+input[type="radio"]:focus, 
+input[type="checkbox"]:focus{
+	outline: none;
+}
+	 .hideme{
+ opacity:0;
+ }
+	.visible{
+	     opacity:1;
+	}
+	
+	.padtop20{
+	padding-top: 20px;
+	padding-bottom: 20px;
+		}
+/* ========================================= */
+/* =============CSS FOR ALL SECTION========= */
+/* ========================================= */
+#top{
+	background: url(../image/Rectangle-1.png) no-repeat;
+	background-size: cover;
+	padding: 30px 0;
+}
+.user span{
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 5px;
+}
+.account-info{
+	text-align: center;
+	display: none;
+}
+.account-info li{
+	line-height: 25px;
+}
+.account-info li a{
+	color: #fff;
+}
+.account-info li a:hover{
+	color: #0ea7e1;
+}
+/*==============
+css for slider
+===============*/
+.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+  background-color: transparent;
+    width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  padding: 18px
+}
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+  left: -73px;
+  top:30%; 
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-next{
+  right:-50px;
+  top: 30%;
+}
+.owl-theme .owl-controls .owl-buttons div:hover {
+  background-color:transparent;
+}
+.slider .item img{
+	border-radius: 100%;
+}
+.right-badge{
+	background:rgba(9,105,138,0.7);
+	width: 165px;
+	height: 165px;
+	border-radius: 100%;
+}
+.right-badge .fa{
+	line-height: 170px;
+	font-size: 50px;
+	color: #ffffff;
+}
+#owl-demo .item .image{
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+#owl-demo .item .mask{
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+}
+
+/*=================
+css for services
+=================*/
+
+
+/*================
+css for counter
+=================*/
+#counter{
+	background: url(../image/Rectangle-2.png) no-repeat;
+	background-size: cover; 
+	/*background-attachment: fixed;*/
+	padding: 20px 0;
+}
+
+
+
+/*=====================
+css for advertise
+======================*/
+.point-table .invite span{
+	
+}
+.point-table .invite{
+	width:100%;
+	background: #138dbd;
+	border-radius: 20px;
+	padding: 5px 15px;
+	text-align: center;
+}
+.point-table tr td{
+width: 200px;
+vertical-align: middle;
+}
+.point-table tr td div{
+	margin-bottom: 20px;
+}
+
+.invitebtn{
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 5px;
+    font-weight: 600;
+ } 
+ 
+ /*======
+ css for share
+ =======*/
+  .share .input-group-btn {
+    background: #138dbd;
+    border-radius:0  3px 3px 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding:2px 15px;
+    vertical-align: middle;
+}
+.share .input-group-btn:hover {
+  background: #006289;
+  -webkit-transition:all 0.4s linear;
+  -moz-transition:all 0.4s linear;
+  -ms-transition:all 0.4s linear;
+}
+.input-group span{
+	cursor: pointer;
+}
+.user-point-box{
+	border:1px solid #a1a1a1;
+	padding:0 0 10px 0;
+}
+.user-point-box .head{
+	background: #3b5998;
+	color: #fff;
+	padding: 20px 8px;
+	text-align: center;
+}
+
+.buybtn{
+	 background-color: #138dbd;
+    color: #fff;
+    font-weight: 600;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border-bottom: 3px solid #0b5e7e;
+}
+.buybtn:hover{
+	background: #006289;
+}
+/*.paypal{
+	   width: 15%;
+    margin: 0 auto;
+}*/
+.lht{
+    
+    line-height: 25px;
+}
+.paypal span{
+	display: table-cell;
+}
+.mtop20{
+	padding-bottom:28px;}
+	.spanpoints{
+		
+		
+		font-size:15px;
+		color:#333;}
+
+/*.process-graph .mautomargin{
+	margin:0px 11px !important; 
+} */
+
+.dotted-line
+{
+    background: #e3e3e3;
+    height: 5px;
+    position: relative;
+    z-index: -1000;
+    width: 90%;
+}
+.bluebar{
+    background: #138DBD;
+    height: 5px;
+    width: 25%;
+}
+.trophy{
+	position: relative;
+    top: -36px;
+}
+/*====================
+css for price table
+=====================*/
+.price-table{
+	box-shadow: 0px 2px 10px -1px #ccc;
+	padding-bottom:;
+}
+.plan-price{
+	padding:15px 0;
+	background-color: #f8f8f8;
+}
+.price-table .btn{
+	color: #fff;
+	padding: 8px 30px;
+}
+.price-table .btn:hover{
+background: #006289;
+}
+
+.price-table .plan-list ul li:not(:last-child){
+	line-height: 35px;
+	border-bottom: 1px solid #f9f9f9;
+}
+.price-table .plan-list ul li{
+	line-height: 35px;
+}
+.price-btn{
+	background-color: #f8f8f8;
+	padding:30px 0;
+}
+
+
+span.amo {
+  position: absolute;
+  top:-35%;
+  left: 8%;
+}
+.tooltip-inner {
+  max-width: 243px;
+  padding: 5px 18px;
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  text-decoration: none;
+  background-color: #a1a1a1;
+  line-height: 16px;
+  border-radius: 4px;
+}
+span.amo:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  bottom: -4px;
+  right: 10px;
+  border-width: 5px 5px 0;
+  border-top-color: #a1a1a1;
+}
+
+/*==================
+bronz price table
+====================*/
+.bronz .plan-name{
+	background: #cd7f32;
+	padding: 10px 0;
+}	
+
+.bronz .plan-price h3{
+	color: #cd7f32;
+}
+.bronz .btn{
+	background: #cd7f32;
+}
+
+/*==================
+gold price table
+====================*/
+.gold .plan-name{
+	background:#ffd700;
+	padding: 20px 0;
+}
+.gold .plan-price h3{
+	color: #ffd700;
+}
+ .gold .btn{
+	background: #ffd700;
+}
+.price-table.gold{
+	-webkit-transform:scale(1,1.1);
+	-moz-transform:scale(1,1.1);
+	-ms-transform:scale(1,1.1);
+}
+/*==================
+silver price table
+====================*/
+.silver .plan-name{
+	background:#b5b5b5;
+	padding:10px 0;
+}
+.silver .plan-price h3{
+	color:#b5b5b5;
+}
+ .silver .btn{
+	background: #b5b5b5;
+}
+
+/* .process-graph .mautomargin{
+	margin:0px 11px !important; 
+}*/
+/*.process-graph{
+	background: url(../image/Shape-2-copy.png) no-repeat;
+	background-position: 100% 50%;
+}
+*//*=================
+css for bottom section
+=====================*/
+#bottom{
+	background:#ecf0f1;
+	padding: 30px 0;
+}
+
+
+
+@media(max-width:480px){
+	span.amo {
+    font-size: 8px !important;
+  	padding: 2px 5px !important;
+	}
+}
+
+@media(min-width:200px) and (max-width: 568px){
+	span.amo {
+  	position: absolute;
+  	left: 11%;
+ 	 top: -80% !important;
+ 
+	}
+	.point-table .invite span{
+		font-size: 14px;
+	}
+	#counter h1
+	{
+		font-size: 30px;
+	}
+
+	#counter h2 span{
+
+		font-size: 12px !important;
+	}
+	
+	.point-table .invite {
+	  line-height: 15px;
+	  padding: 3px 3px;
+	}
+	.head li{
+		display: block;
+	}
+	.head li img{
+		margin: 0 auto;
+	}
+	.points h5{
+		font-size: 12px;
+	}
+	.points img{
+		height: 40px !important;
+		width: 40px !important;
+	}
+	.points .trophy{
+		height: 20px !important;
+		width: 20px !important;	
+	}
+		
+	
+}
+
+@media(max-width:690px){
+	
+
+	.process-graph{
+	  background-position: 21% 50%;
+	}
+
+
+}
+
+@media(max-width:970px){
+	
+	#price .pad0{
+		padding:15px;
+	}
+	span.amo {
+	  position: absolute;
+	  top:-75%;
+	  left: 10%
+	 }
+ .dotted-line{
+ 	top: 50%;
+ }
+ .dotted-line img{
+ 	width:80%;  
+ }
+
+}
+@media(min-width:710px) and (max-width:790px){
+ .dotted-line img{
+ 	width:88%;  
+ }
+}
+
+
+@media(max-width:1024px){
+	.owl-theme .owl-controls .owl-buttons .owl-prev{
+  left: -15px;
+  top:25%; 
+	}
+	.process-graph .mautomargin{
+	margin:0px auto !important; 
+}
+	 
+	.owl-theme .owl-controls .owl-buttons .owl-next{
+	  right:-15px;
+	  top: 25%;
+	}
+}
+silver price table
+====================*/
+.silver .plan-name{
+	background:#b5b5b5;
+	padding:10px 0;
+}
+.silver .plan-price h3{
+	color:#b5b5b5;
+}
+ .silver .btn{
+	background: #b5b5b5;
+}
+
+/* .process-graph .mautomargin{
+	margin:0px 11px !important; 
+}*/
+/*.process-graph{
+	background: url(../image/Shape-2-copy.png) no-repeat;
+	background-position: 100% 50%;
+}
+*//*=================
+css for bottom section
+=====================*/
+#bottom{
+	background:#ecf0f1;
+	padding: 30px 0;
+}
+
+
+
+
+@media(min-width:200px) and (max-width: 567px){
+	span.amo {
+	font-size: 8px !important;
+  	padding: 2px 10px !important;		
+    position: absolute;
+    left: 7%;
+    top: -73% !important;
+	}
+	.point-table .invite span{
+		font-size: 14px;
+	}
+	#counter h1
+	{
+		font-size: 30px;
+	}
+
+	#counter h2 span{
+
+		font-size: 12px !important;
+	}
+	
+	.point-table .invite {
+	  line-height: 15px;
+	  padding: 3px 15px;
+	}
+	.head li{
+		display: block;
+	}
+	.head li img{
+		margin: 0 auto;
+	}
+	.points h5{
+		font-size: 12px;
+	}
+	.points img{
+		height: 40px !important;
+		width: 40px !important;
+	}
+	.points .trophy{
+		height: 20px !important;
+		width: 20px !important;	
+	}
+		
+	
+}
+
+@media(max-width:690px){
+	
+
+	.process-graph{
+	  background-position: 21% 50%;
+	}
+
+
+}
+
+@media(max-width:970px){
+	
+	#price .pad0{
+		padding:15px;
+	}
+	
+ .dotted-line{
+ 	top: 50%;
+ }
+ .dotted-line img{
+ 	width:80%;  
+ }
+}
+
+.item:hover .mask,
+.item .active{
+	opacity: 1;
+}
+
+
+.item:hover .mask{
+	opacity: 1;
+}
+.mask{
+	opacity: 0;
+}
+
+@media(min-width:710px) and (max-width:980px){
+	.dotted-line{
+		width: 80%;
+	}
+	span.amo {
+    position: absolute;
+    top: -80%;
+    left: 8%;
+}
+}
+
+@media(min-width:200) and (max-width:640px){
+	.bluebar{
+		width: 12%;
+	}
+	span.amo {
+    position: absolute;
+    top: -80%;
+    left: 8%;
+}
+}
+
+@media(max-width:1024px){
+	.owl-theme .owl-controls .owl-buttons .owl-prev{
+  left: -15px;
+  top:25%; 
+	}
+	.process-graph .mautomargin{
+	margin:0px auto !important; 
+}
+	 
+	.owl-theme .owl-controls .owl-buttons .owl-next{
+	  right:-15px;
+	  top: 25%;
+	}
+}
+
+@media(max-width:360px){
+	.trophy {
+    top: -30px
+}
+}/* CSS Document */
+
+
+/* --------------------------------
+/* 
+/* CSS BY SOLY
+/* 
+/* 
+*--------------------------------*/
+
+
+.img-user{
+  
+  	display: block;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+}
+.droplol{
+
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	background: url(../image/arroicon.png) no-repeat center center;
+
+}
+h4.notethree{
+
+	letter-spacing: 2px !important;
+	line-height: 29px !important;
+	max-width: 700px;
+	text-align: center !important;
+	margin: auto;
+}
+
+.invite-whatsapp{
+
+	background-color: #34AF23 !important;
+	color: white !important;
+
+}
+
+.invite-whatsapp:hover{
+
+	background-color:  #2c951e !important;
+}
+
+.invite-twitter{
+
+	background-color: #55ACEE !important;
+		color: white !important;
+
+
+}
+
+.invite-twitter:hover{
+
+	background-color:  #178ee8 !important;
+}
+
+.invite-facebook{
+
+	background-color: #3B5999 !important;
+		color: white !important;
+
+
+}
+
+.invite-facebook:hover{
+
+	background-color:  #324b81 !important;
+}
+
+@media(min-width:100px) and (max-width:980px){
+
+.invite-whatsapp{
+
+	background-color: #34AF23 !important;
+	color: white !important;
+
+}
+
+.invite-whatsapp:hover{
+
+	background-color:  #2c951e !important;
+}
+
+.invite-twitter{
+
+	background-color: #55ACEE !important;
+		color: white !important;
+
+
+}
+
+.invite-twitter:hover{
+
+	background-color:  #178ee8 !important;
+}
+
+.invite-facebook{
+
+	background-color: #3B5999 !important;
+		color: white !important;
+
+
+}
+
+.invite-facebook:hover{
+
+	background-color:  #324b81 !important;
+}
+
+
+
+
+}
+
+
+
+.facebook-share--button, .twitter-share--button {
+  padding: .3em .8em;
+  font-family: sans-serif;
+  font-size: 1.2em;
+  font-weight: 300;
+  border: 1px solid;
+  border-radius: .25em;
+  cursor: pointer;
+  width: 190px;
+  margin-bottom: 8px;
+  height: 50px;
+  font-size: 18px;
+}
+
+.facebook-share--button {
+  background: #3A5BA2 ;
+  color: white;
+  border-color: #3A5BA2;
+}
+.facebook-share--button:hover {
+  background: #3A5BA2;
+  color: white;
+}
+
+.twitter-share--button {
+  background: #00B2E1;
+  color: white;
+  border-color: #00B2E1;
+}
+.twitter-share--button:hover {
+  background: #00B2E1;
+  color: white;
+}
+
+.trophy1{
+
+	display: block !important;
+	height: 30px!important;
+	width: 30px !important;
+
+}
+
+@media(min-width:10px) and (max-width:980px){
+
+.trophy1{
+
+	display: block !important;
+	height: 22px!important;
+	width: 22px !important;
+
+}
+
+
+}
+
+/*
+/ loading
+*/
+
+.loading{
+
+        background: #222;
+        color: white;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+    }
+
+    .sk-folding-cube {
+  margin: 200px auto;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+}
+
+.sk-folding-cube .sk-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); 
+}
+.sk-folding-cube .sk-cube:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+          animation: sk-foldCubeAngle 2.4s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+      -ms-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
+}
+.sk-folding-cube .sk-cube2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+          transform: scale(1.1) rotateZ(90deg);
+}
+.sk-folding-cube .sk-cube3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+          transform: scale(1.1) rotateZ(180deg);
+}
+.sk-folding-cube .sk-cube4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+          transform: scale(1.1) rotateZ(270deg);
+}
+.sk-folding-cube .sk-cube2:before {
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+}
+.sk-folding-cube .sk-cube3:before {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s; 
+}
+.sk-folding-cube .sk-cube4:before {
+  -webkit-animation-delay: 0.9s;
+          animation-delay: 0.9s;
+}
+@-webkit-keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  } 
+}
+
+@keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+            transform: perspective(140px) rotateX(-180deg);
+    opacity: 0; 
+  } 25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+            transform: perspective(140px) rotateX(0deg);
+    opacity: 1; 
+  } 90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+            transform: perspective(140px) rotateY(180deg);
+    opacity: 0; 
+  }
+
+
+    .header-share{
+        
+        width:30% !important;
+        height: 33px !important;
+        display: block;
+    }
+
+
+
+
+
+
